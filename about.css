@@ -1,0 +1,331 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    overflow-x: hidden; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 13px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+main {
+    padding-top: 90px; 
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+nav ul li a.active {
+    border-bottom: 3px solid #000;
+}
+
+.download-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background-color: #fffaf0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+    background-color: #fffaf0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hero-images {
+    position: relative;
+    width: 45%;
+    height: 400px;
+}
+.hero-images::before {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    width: 50px;
+    height: 150px;
+    background-color: #ffcc00;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.hero-images .img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.hero-images .img2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+
+/* Champions Section */
+.champions {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fffaf0;
+}
+
+.champions h2 {
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.champions h2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background-color: #ffcc00;
+}
+
+
+.champions > .container > p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.founder {
+    text-align: center;
+}
+
+.founder img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.founder p {
+    margin: 5px 0;
+}
+
+/* Jobs Section */
+.jobs {
+    padding: 100px 0;
+    background: url('https://via.placeholder.com/1920x400/FFCC00/000000?text=') no-repeat center center/cover; 
+    background-color: #ffcc00; 
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.jobs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.jobs-content {
+    position: relative;
+    z-index: 1;
+}
+
+.jobs h2 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.jobs p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.work-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.app-links a {
+    display: block;
+    margin-bottom: 10px;
+}
+.app-links img {
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.footer-column.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column.links li {
+    margin-bottom: 15px;
+}
+
+.footer-column.links a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
