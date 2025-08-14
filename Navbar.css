@@ -164,12 +164,12 @@ body {
 .input-field:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-  box-shadow: 0 0 0 2px #facc15; /* focus:ring-2 focus:ring-yellow-400 */
+  box-shadow: 0 0 0 2px #ff7b45; /* focus:ring-2 focus:ring-yellow-400 */
 }
 
 .book-ride-btn {
   width: 100%;
-  background-color: #facc15; /* bg-yellow-400 */
+  background-color: #ff7b45; /* bg-yellow-400 */
   color: black;
   font-weight: 700; /* font-bold */
   padding: 1.25rem 1rem; /* py-5 px-4 */
@@ -209,7 +209,7 @@ body {
 .title-underline {
   width: 6rem; /* w-24 */
   height: 0.25rem; /* h-1 */
-  background-color: #facc15; /* bg-yellow-400 */
+  background-color: #ff7b45; /* bg-yellow-400 */
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.5rem; /* mt-2 */
@@ -314,7 +314,7 @@ body {
 .title-underline-features {
   width: 6rem; /* w-24 */
   height: 0.25rem; /* h-1 */
-  background-color: #facc15; /* bg-yellow-400 */
+  background-color: #ff7b45; /* bg-yellow-400 */
   margin-top: 1rem; /* mt-4 */
   margin-bottom: 1.5rem; /* mb-6 */
   margin-left: auto; /* mx-auto */
@@ -463,7 +463,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #facc15; /* hover:text-yellow-400 */
+  color: #ff7b45; /* hover:text-yellow-400 */
 }
 
 .social-icons {
@@ -479,7 +479,7 @@ body {
 }
 
 .social-icons a:hover {
-  color: #facc15; /* hover:text-yellow-400 */
+  color: #ff7b45; /* hover:text-yellow-400 */
 }
 
 .footer-copyright {
