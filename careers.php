@@ -1,39 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Careers at Rapido</title>
-    <link rel="stylesheet" href="careers.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
 
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <!-- <a href="#" class="logo-link">
-                    <img src="https://i.imgur.com/gJ5G40p.png" alt="Rapido Logo" class="logo">
-                </a> -->
-                <div class="logo">Apido</div>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="safety.html" class="nav-link">Safety</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link active">Careers</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Press</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-                </ul>
-                <a href="#" class="btn btn-dark">Download App</a>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </div>
-    </header>
+<?php include_once('include/header.php');?>
 
     <main>
         <section class="hero-section">
@@ -114,56 +80,5 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-column">
-                <h4>Customer app</h4>
-                <a href="#"><img src="https://i.imgur.com/DQR3pTz.png" alt="Get it on Google Play" class="store-badge"></a>
-                <a href="#"><img src="https://i.imgur.com/4g0vQ3k.png" alt="Download on the App Store" class="store-badge"></a>
-            </div>
-            <div class="footer-column">
-                <h4>Captain app</h4>
-                <a href="#"><img src="https://i.imgur.com/DQR3pTz.png" alt="Get it on Google Play" class="store-badge"></a>
-            </div>
-            <div class="footer-column">
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Safety</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <ul class="footer-links">
-                    <li><a href="#">Customer Terms - Bike Taxi</a></li>
-                    <li><a href="#">Customer Terms - Cabs and Auto</a></li>
-                    <li><a href="#">Corporate Affairs</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                 <ul class="footer-links">
-                    <li><a href="#">Captain Terms - Bike Taxi</a></li>
-                    <li><a href="#">Captain Terms - Cabs and Auto</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Press</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h4>Follow Us</h4>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Apido. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <?php include_once('include/footer.php');?>
+ 
