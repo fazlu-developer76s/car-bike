@@ -7,7 +7,7 @@
             <h1 class="blog-title">Blog</h1>
             <div class="blog-grid">
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/E53935/FFFFFF?text=Brand+New+Cars" alt="Image of a new red car">
+                    <img src="assets/images/blog1.png" alt="Image of a new red car">
                     <div class="card-content">
                         <p class="card-date">January, 14th, 2025</p>
                         <h2 class="card-title">Jaw dropping prices on Brand new cars</h2>
@@ -15,7 +15,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/1E88E5/FFFFFF?text=Dream+Car" alt="Image of a car on a scenic road">
+                    <img src="assets/images/blog2.png" alt="Image of a car on a scenic road">
                     <div class="card-content">
                         <p class="card-date">January, 14th, 2025</p>
                         <h2 class="card-title">Find your dream car at price you won't believe</h2>
@@ -23,7 +23,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/FFFFFF/000000?text=Rapido+Corporate" alt="Illustration of people and city buildings">
+                    <img src="assets/images/blog3.jpg" alt="Illustration of people and city buildings">
                     <div class="card-content">
                         <p class="card-date">January, 8th, 2021</p>
                         <h2 class="card-title">Business Travel Show reports a win-win solution for travel managers and employees</h2>
@@ -32,7 +32,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/1E88E5/FFFFFF?text=Rapido+Corporate" alt="Rapido driver with a helmet">
+                    <img src="assets/images/blog4.jpg" alt="Rapido driver with a helmet">
                     <div class="card-content">
                         <p class="card-date">January, 7th, 2021</p>
                         <h2 class="card-title">Boost Business Productivity with these Tips</h2>
@@ -41,7 +41,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/1E88E5/FFFFFF?text=Rapido+Corporate" alt="Two Rapido drivers on bikes">
+                    <img src="assets/images/blog5.jpg" alt="Two Rapido drivers on bikes">
                     <div class="card-content">
                         <p class="card-date">January, 5th, 2021</p>
                         <h2 class="card-title">Traveler first Business Travel Program</h2>
@@ -50,7 +50,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="https://via.placeholder.com/400x200.png/424242/FFFFFF?text=Rapido" alt="Person working on a laptop">
+                    <img src="assets/images/blog6.png" alt="Person working on a laptop">
                     <div class="card-content">
                         <p class="card-date">December, 17th, 2020</p>
                         <h2 class="card-title">Make Commute Hassle Free</h2>
