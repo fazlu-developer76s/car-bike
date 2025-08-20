@@ -31,19 +31,19 @@
 
         <section class="related-articles">
             <div class="article">
-                <img src="https://via.placeholder.com/400x250" alt="Traveler first Business Travel Program">
+                <img src="assets/images/blog1.png" alt="Traveler first Business Travel Program">
                 <p class="article-date">January, 5th, 2021</p>
                 <h2>Traveler first Business Travel Program</h2>
                 <p>When your employees travel for work, do they find your company’s travel program more of a help or a hindrance? If it’s the latter, it’s time you considered some adjustments that can make a significant impact. In this post, we’ll look at four hallmarks of business travel programs that can work for both your control, while also respecting the long hours, rushed pace, and often challenging life of your business travelers. 1. Remove friction Your travel program may look effective from your side of</p>
             </div>
             <div class="article">
-                <img src="https://via.placeholder.com/400x250" alt="Delight your Customers with this">
+                <img src="assets/images/blog2.png" alt="Delight your Customers with this">
                 <p class="article-date">December, 10th, 2020</p>
                 <h2>Delight your Customers with this</h2>
                 <p>Delight your customers with this! It’s time to reach the new customers and give them the importance they deserve. Keeping convenience at the core, we came up with Rapido Coupon [https://rapido.bike/CorporatePartners?utm_source=medium&utm_medium=article&utm_c]s to significantly speed up the process of coordinating courtesy rides for customers and guests, especially for companies in the service sector. What comes with Rapido Coupons [https://rapido.bike/CorporatePartners?utm_sou</p>
             </div>
             <div class="article">
-                <img src="https://via.placeholder.com/400x250" alt="Help your Business Grow and Travel Faster">
+                <img src="assets/images/blog3.jpg" alt="Help your Business Grow and Travel Faster">
                 <p class="article-date">December, 7th, 2020</p>
                 <h2>Help your Business Grow and Travel Faster</h2>
                 <p>We built Rapido Corporate [https://rapido.bike/CorporatePartners?utm_source=oemwebsite&utm_medium=blog&utm] to help organisations perfect the way they move the people that matter to them. And while our initial focus was on driving business travel efficiency through features like monthly billing and reporting, it didn’t take long before we realised that organisations needed Rapido for a lot more. Whether it’s helping employees stay safe when leaving the office at night, offering</p>
