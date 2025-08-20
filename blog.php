@@ -6,21 +6,28 @@
         <div class="container">
             <h1 class="blog-title">Blog</h1>
             <div class="blog-grid">
-                <article class="blog-card">
-                    <img src="assets/images/blog1.png" alt="Image of a new red car">
-                    <div class="card-content">
-                        <p class="card-date">January, 14th, 2025</p>
-                        <h2 class="card-title">Jaw dropping prices on Brand new cars</h2>
-                    </div>
-                </article>
+                <a href="blogdetails.php" class="blog-card">
+                    <article class="blog-card">
+                        <img src="assets/images/blog1.png" alt="Image of a new red car">
+                        <div class="card-content">
+                            <p class="card-date">January, 14th, 2025</p>
+                            <h2 class="card-title">Jaw dropping prices on Brand new cars</h2>
+                        </div>
+                    </article>
 
-                <article class="blog-card">
-                    <img src="assets/images/blog2.png" alt="Image of a car on a scenic road">
-                    <div class="card-content">
-                        <p class="card-date">January, 14th, 2025</p>
-                        <h2 class="card-title">Find your dream car at price you won't believe</h2>
-                    </div>
-                </article>
+                </a>
+
+                <a href="blogdetails.php" class="blog-card">
+  <article>
+    <img src="assets/images/blog2.png" alt="Image of a car on a scenic road">
+
+    <div class="card-content">
+      <p class="card-date">January 14, 2025</p>
+      <h2 class="card-title">Find your dream car at a price you won't believe</h2>
+    </div>
+  </article>
+</a>
+
 
                 <article class="blog-card">
                     <img src="assets/images/blog3.jpg" alt="Illustration of people and city buildings">

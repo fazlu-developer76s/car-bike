@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="global.css" />
         <link rel="stylesheet" href="careers.css" />
+        <link rel="stylesheet" href="blogdetails.css" />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="safety.css" />
