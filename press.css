@@ -34,7 +34,7 @@ body::after {
     right: 50px;
     width: 150px;
     height: 150px;
-    background-image: radial-gradient(#FFF1C1 15%, transparent 15%);
+    background-image: radial-gradient(#f5734b 15%, transparent 15%);
     background-size: 15px 15px;
     z-index: 0;
 }
