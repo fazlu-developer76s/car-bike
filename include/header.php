@@ -5,24 +5,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apido NavBar</title>
+    <title>Democab NavBar</title>
     <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="global.css" />
         <link rel="stylesheet" href="careers.css" />
         <link rel="stylesheet" href="blogdetails.css" />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="about.css" />
-    <link rel="stylesheet" href="safety.css" />
+     <link rel="stylesheet" href="safety.css" />
     <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="press.css" />
     <link rel="stylesheet" href="contact.css" />
- 
+    <link rel="stylesheet" href="safetydetail.css" />
+  
   </head>
   <body>
     <header class="header">
-        <div class="container">
+        <div class="headercontainer">
             <nav class="navbar">
-                <a href="index.php" class="logo">Apido</a>
+                <a href="index.php" class="logo">Democab</a>
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="index.php">Home</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>

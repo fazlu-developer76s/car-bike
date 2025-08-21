@@ -65,4 +65,69 @@
           }
         }
       });
+
+
+
+      // carrers page
+
+      document.addEventListener("DOMContentLoaded", function() {
+
+    // Testimonial Slider
+    const slider = document.querySelector('.testimonial-slider');
+    const cards = document.querySelectorAll('.testimonial-card');
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        // Move the slider
+        slider.style.transform = `translateX(-${index * 100}%)`;
+
+        // Update active card
+        cards.forEach((card, i) => {
+            card.classList.toggle('active', i === index);
+        });
+
+        // Update active dot
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+
+        currentIndex = index;
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            showSlide(parseInt(dot.dataset.slide));
+        });
+    });
+    
+    // Auto-play slider (optional)
+    setInterval(() => {
+        let nextIndex = (currentIndex + 1) % cards.length;
+        showSlide(nextIndex);
+    }, 5000); // Change slide every 5 seconds
+
+
+    // Scroll Reveal Animation
+    function reveal() {
+        const reveals = document.querySelectorAll(".reveal");
+
+        for (let i = 0; i < reveals.length; i++) {
+            const windowHeight = window.innerHeight;
+            const elementTop = reveals[i].getBoundingClientRect().top;
+            const elementVisible = 150; // Distance from the bottom of the viewport
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", reveal);
+    
+    // Initial check
+    reveal();
+});
  

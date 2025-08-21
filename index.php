@@ -9,7 +9,7 @@
           <div class="hero-background-overlay"></div>
         </div>
         <div class="hero-container">
-          <h1 class="hero-title">Bharat Moves On Rapido!</h1>
+          <h1 class="hero-title">Bharat Moves On Democab!</h1>
           <div class="search-box">
             <div class="input-group">
               <div class="input-icon">
@@ -93,31 +93,31 @@
             <div class="feature-text">
               <h2 class="feature-title">Get Quick Rides,<br /> Low Fares</h2>
               <div class="title-underline-features"></div>
-              <p class="feature-description">In Rapido we ensure our customers get rides quickly at the most affordable prices.</p>
+              <p class="feature-description">In Democab we ensure our customers get rides quickly at the most affordable prices.</p>
               <button class="feature-button">Book a ride <span class="arrow-icon">&rarr;</span></button>
             </div>
             <div class="feature-images">
               <div class="image-grid">
                 <img src="assets/images/img1.PNG" alt="Family in an auto-rickshaw" class="grid-image"/>
-                <img src="assets/images/img2.PNG" alt="Rapido parcel delivery" class="grid-image"/>
+                <img src="assets/images/img2.PNG" alt="Democab parcel delivery" class="grid-image"/>
                 <img src="assets/images/img3.PNG" alt="Couple on a bike ride" class="grid-image"/>
-                <img src="assets/images/img4.PNG" alt="Woman getting into a Rapido cab" class="grid-image"/>
+                <img src="assets/images/img4.PNG" alt="Woman getting into a Democab cab" class="grid-image"/>
               </div>
             </div>
           </div>
           <div class="feature-block feature-block-reversed">
             <div class="feature-images">
               <div class="image-grid">
-                <img src="assets/images/img5.PNG" alt="Rapido captain on a scooter" class="grid-image"/>
-                <img src="assets/images/img6.PNG" alt="Rapido auto captain" class="grid-image"/>
-                <img src="assets/images/img7.PNG" alt="Happy Rapido captains" class="grid-image"/>
-                <img src="assets/images/img8.PNG" alt="Rapido cab captain with earnings" class="grid-image"/>
+                <img src="assets/images/img5.PNG" alt="Democab captain on a scooter" class="grid-image"/>
+                <img src="assets/images/img6.PNG" alt="Democab auto captain" class="grid-image"/>
+                <img src="assets/images/img7.PNG" alt="Happy Democab captains" class="grid-image"/>
+                <img src="assets/images/img8.PNG" alt="Democab cab captain with earnings" class="grid-image"/>
               </div>
             </div>
             <div class="feature-text">
               <h2 class="feature-title">Flexible Hours &<br /> High Earnings</h2>
               <div class="title-underline-features"></div>
-              <p class="feature-description">Join as a Rapido captain and earn on your own terms. Drive whenever you want.</p>
+              <p class="feature-description">Join as a Democab captain and earn on your own terms. Drive whenever you want.</p>
               <button class="feature-button">Start Earning <span class="arrow-icon">&rarr;</span></button>
             </div>
           </div>
@@ -131,11 +131,11 @@
               <div class="safety-content">
                   <div class="safety-text">
                       <h2>Safety for all</h2>
-                      <p>At Rapido, your safety is our priority. We're dedicated to making every ride safe and comfortable.</p>
+                      <p>At Democab, your safety is our priority. We're dedicated to making every ride safe and comfortable.</p>
                       <a href="#" class="know-more-link">Know More ></a>
                   </div>
                   <div class="safety-image-wrapper">
-                      <img src="assets/images/safteyfirst.PNG" alt="Rapido Captain giving a helmet to a customer for safety.">
+                      <img src="assets/images/safteyfirst.PNG" alt="Democab Captain giving a helmet to a customer for safety.">
                   </div>
               </div>
           </div>
@@ -148,12 +148,12 @@
               <h2>Download Now</h2>
               <div class="app-links">
                   <div class="app-item">
-                      <img src="assets/images/rapido.PNG" alt="Rapido App Icon">
-                      <p><strong>Rapido:</strong> Bike-Taxi,<br>Auto & Cabs</p>
+                      <img src="assets/images/rapido.PNG" alt="Democab App Icon">
+                      <p><strong>Democab:</strong> Bike-Taxi,<br>Auto & Cabs</p>
                   </div>
                   <div class="app-item">
-                      <img src="assets/images/rapidocaption.PNG" alt="Rapido Captain App Icon">
-                      <p><strong>Rapido Captain:</strong><br>Drive & Earn</p>
+                      <img src="assets/images/rapidocaption.PNG" alt="Democab Captain App Icon">
+                      <p><strong>Democab Captain:</strong><br>Drive & Earn</p>
                   </div>
               </div>
           </div>

@@ -34,12 +34,12 @@
                     <div class="card-content">
                         <p class="card-date">January, 8th, 2021</p>
                         <h2 class="card-title">Business Travel Show reports a win-win solution for travel managers and employees</h2>
-                        <p class="card-excerpt">A survey published by the Business Travel Show found that 58 percent of business travel buyers agree that alternative transport providers such as Rapido are a good option for business travel...</p>
+                        <p class="card-excerpt">A survey published by the Business Travel Show found that 58 percent of business travel buyers agree that alternative transport providers such as Democab are a good option for business travel...</p>
                     </div>
                 </article>
 
                 <article class="blog-card">
-                    <img src="assets/images/blog4.jpg" alt="Rapido driver with a helmet">
+                    <img src="assets/images/blog4.jpg" alt="Democab driver with a helmet">
                     <div class="card-content">
                         <p class="card-date">January, 7th, 2021</p>
                         <h2 class="card-title">Boost Business Productivity with these Tips</h2>
@@ -48,7 +48,7 @@
                 </article>
 
                 <article class="blog-card">
-                    <img src="assets/images/blog5.jpg" alt="Two Rapido drivers on bikes">
+                    <img src="assets/images/blog5.jpg" alt="Two Democab drivers on bikes">
                     <div class="card-content">
                         <p class="card-date">January, 5th, 2021</p>
                         <h2 class="card-title">Traveler first Business Travel Program</h2>
