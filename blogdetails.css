@@ -12,6 +12,18 @@ body {
     padding: 20px;
 }
 
+.top-banner {
+    margin-bottom: 20px;
+    width: 1200px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .breadcrumb {
     margin-bottom: 20px;
     color: #777;

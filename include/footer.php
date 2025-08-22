@@ -2,12 +2,12 @@
         <div class="container footer-container">
             <div class="footer-column">
                 <h4>Customer app</h4>
-                <a href="#"><img src="https://i.imgur.com/DQR3pTz.png" alt="Get it on Google Play" class="store-badge"></a>
-                <a href="#"><img src="https://i.imgur.com/4g0vQ3k.png" alt="Download on the App Store" class="store-badge"></a>
+                <a href="#"><img src="assets/images/gplay.PNG" alt="Get it on Google Play" class="store-badge"></a>
+                <a href="#"><img src="assets/images/apstore.PNG" alt="Download on the App Store" class="store-badge"></a>
             </div>
             <div class="footer-column">
                 <h4>Captain app</h4>
-                <a href="#"><img src="https://i.imgur.com/DQR3pTz.png" alt="Get it on Google Play" class="store-badge"></a>
+                <a href="#"><img src="assets/images/gplay.PNG" alt="Get it on Google Play" class="store-badge"></a>
             </div>
             <div class="footer-column">
                 <ul class="footer-links">
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Apido. All rights reserved.</p>
+            <p>&copy; 2025 Democab. All rights reserved.</p>
         </div>
     </footer>
     

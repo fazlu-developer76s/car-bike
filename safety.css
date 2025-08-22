@@ -441,7 +441,7 @@ body {
 }
 
 /* Footer */
-footer {
+/* footer {
   background-color: var(--secondary-color);
   color: white;
   padding: 50px 0 20px;
@@ -525,7 +525,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #bbb;
   font-size: 14px;
-}
+} */
 
 /* Animations */
 @keyframes fadeInUp {

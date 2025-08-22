@@ -351,7 +351,7 @@ body {
 }
 
 /* ========= FEATURES SECTION ========= */
-.features-section {
+/* .features-section {
   padding: 80px 0;
   background-color: #f9f9f9;
 }
@@ -453,6 +453,141 @@ body {
 
 .grid-image:hover {
   transform: scale(1.05);
+} */
+
+.features-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 80px;
+  flex-direction: row;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-block:last-child {
+  margin-bottom: 0;
+}
+
+.feature-block-reversed {
+  flex-direction: row-reverse;
+}
+
+.feature-text,
+.feature-images {
+  flex: 1;
+  width: 100%;
+}
+
+.feature-title {
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: var(--secondary);
+}
+
+.title-underline-features {
+  width: 60px;
+  height: 4px;
+  background-color: var(--primary);
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+.feature-description {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.feature-button {
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-button:hover {
+  background-color: #333;
+  gap: 15px;
+}
+
+.arrow-icon {
+  transition: var(--transition);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.grid-image:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .feature-block {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-block-reversed {
+    flex-direction: column;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-section {
+    padding: 60px 0;
+  }
+
+  .feature-block {
+    margin-bottom: 60px;
+    gap: 25px;
+  }
 }
 
 /* ========= SAFETY SECTION ========= */

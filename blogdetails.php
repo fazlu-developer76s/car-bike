@@ -1,6 +1,10 @@
-
-     <?php include_once('include/header.php');?>
+<?php include_once('include/header.php');?>
     <div class="main-container">
+        <!-- Banner Image Section -->
+        <div class="top-banner">
+            <img src="assets/images/blogbanner.jpg" alt="Boost Business Productivity" class="banner-image">
+        </div>
+        
         <div class="breadcrumb">
             <a href="#">Home</a> > <a href="#">Blog</a> > Boost Business Productivity with these Tips
         </div>
@@ -21,12 +25,12 @@
                 <p>What are you waiting for? Say goodbye to digging through piles of junk — time to clean up!</p>
             </main>
 
-            <aside class="social-sidebar">
+            <!-- <aside class="social-sidebar">
                 <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
-            </aside>
+            </aside> -->
         </div>
 
         <section class="related-articles">
@@ -34,21 +38,21 @@
                 <img src="assets/images/blog1.png" alt="Traveler first Business Travel Program">
                 <p class="article-date">January, 5th, 2021</p>
                 <h2>Traveler first Business Travel Program</h2>
-                <p>When your employees travel for work, do they find your company’s travel program more of a help or a hindrance? If it’s the latter, it’s time you considered some adjustments that can make a significant impact. In this post, we’ll look at four hallmarks of business travel programs that can work for both your control, while also respecting the long hours, rushed pace, and often challenging life of your business travelers. 1. Remove friction Your travel program may look effective from your side of</p>
+                <p>When your employees travel for work, do they find your company's travel program more of a help or a hindrance? If it's the latter, it's time you considered some adjustments that can make a significant impact. In this post, we'll look at four hallmarks of business travel programs that can work for both your control, while also respecting the long hours, rushed pace, and often challenging life of your business travelers. 1. Remove friction Your travel program may look effective from your side of</p>
             </div>
             <div class="article">
                 <img src="assets/images/blog2.png" alt="Delight your Customers with this">
                 <p class="article-date">December, 10th, 2020</p>
                 <h2>Delight your Customers with this</h2>
-                <p>Delight your customers with this! It’s time to reach the new customers and give them the importance they deserve. Keeping convenience at the core, we came up with Democab Coupon to significantly speed up the process of coordinating courtesy rides for customers and guests, especially for companies in the service sector. What comes with Democab Coupons</p>
+                <p>Delight your customers with this! It's time to reach the new customers and give them the importance they deserve. Keeping convenience at the core, we came up with Democab Coupon to significantly speed up the process of coordinating courtesy rides for customers and guests, especially for companies in the service sector. What comes with Democab Coupons</p>
             </div>
             <div class="article">
                 <img src="assets/images/blog3.jpg" alt="Help your Business Grow and Travel Faster">
                 <p class="article-date">December, 7th, 2020</p>
                 <h2>Help your Business Grow and Travel Faster</h2>
-                <p>We built Democab Corporate to help organisations perfect the way they move the people that matter to them. And while our initial focus was on driving business travel efficiency through features like monthly billing and reporting, it didn’t take long before we realised that organisations needed Democab for a lot more. Whether it’s helping employees stay safe when leaving the office at night, offering</p>
+                <p>We built Democab Corporate to help organisations perfect the way they move the people that matter to them. And while our initial focus was on driving business travel efficiency through features like monthly billing and reporting, it didn't take long before we realised that organisations needed Democab for a lot more. Whether it's helping employees stay safe when leaving the office at night, offering</p>
             </div>
         </section>
     </div>
 
-     <?php include_once('include/footer.php');?>
+<?php include_once('include/footer.php');?>
