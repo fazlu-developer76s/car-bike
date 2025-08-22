@@ -15,14 +15,14 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Safety</a></li>
                     <li><a href="#">Careers</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="privicypolicy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <ul class="footer-links">
-                    <li><a href="#">Customer Terms - Bike Taxi</a></li>
-                    <li><a href="#">Customer Terms - Cabs and Auto</a></li>
-                    <li><a href="#">Corporate Affairs</a></li>
+                    <li><a href="termsandcondition.php">Customer Terms - Bike Taxi</a></li>
+                    <li><a href="termsandcondition.php">Customer Terms - Cabs and Auto</a></li>
+                    <li><a href="corporateaffairs.php">Corporate Affairs</a></li>
                 </ul>
             </div>
             <div class="footer-column">

@@ -1,21 +1,21 @@
 /* --- Basic Setup & Fonts --- */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    color: #4A4A4A;
-    overflow-x: hidden; /* Prevents horizontal scroll from background elements */
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  color: #4a4a4a;
+  overflow-x: hidden; /* Prevents horizontal scroll from background elements */
 }
 
 .container {
-    width: 100%;
-    position: relative;
-    padding: 60px 20px;
-    z-index: 2;
+  width: 100%;
+  position: relative;
+  padding: 60px 20px;
+  z-index: 2;
 }
 
 /* --- Decorative Background Elements --- */
-body::before {
+/* body::before {
     content: '';
     position: absolute;
     top: -50px;
@@ -25,121 +25,122 @@ body::before {
     background-color: rgba(255, 244, 214, 0.5);
     border-radius: 50%;
     z-index: 0;
-}
+} */
 
 body::after {
-    content: '';
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    width: 150px;
-    height: 150px;
-    background-image: radial-gradient(#FFF1C1 15%, transparent 15%);
-    background-size: 15px 15px;
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: radial-gradient(#fff1c1 15%, transparent 15%);
+  background-size: 15px 15px;
+  z-index: 0;
 }
-
 
 /* --- Press and Media Section --- */
 .press-media {
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .press-media h1 {
-    font-size: 2.8rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 50px;
-    position: relative; /* Ensure title is above background elements */
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 50px;
+  position: relative; /* Ensure title is above background elements */
 }
 
 /* --- Media Grid Layout --- */
 .media-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-    position: relative; /* Ensure cards are above background elements */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  position: relative; /* Ensure cards are above background elements */
 }
 
 /* --- Card Styling --- */
 .card {
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-    width: 100%;
-    height: 180px; /* Fixed height for uniform look */
-    object-fit: cover; /* Ensures image covers the area without distortion */
+  width: 100%;
+  height: 180px; /* Fixed height for uniform look */
+  object-fit: cover; /* Ensures image covers the area without distortion */
 }
 
 .card-content {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; /* Allows footer to stick to the bottom */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allows footer to stick to the bottom */
 }
 
 .card-content p {
-    font-size: 0.9rem;
-    line-height: 1.7;
-    color: #555;
-    margin: 0;
-    flex-grow: 1; /* Pushes the link to the bottom */
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+  flex-grow: 1; /* Pushes the link to the bottom */
 }
 
 .source-link {
-    margin-top: 20px;
-    color: #5887FF; /* A blue color similar to the image */
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    text-align: center;
+  margin-top: 20px;
+  color: #5887ff; /* A blue color similar to the image */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .source-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* --- Responsive Design --- */
 @media (max-width: 992px) {
-    .media-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-    .press-media h1 {
-        font-size: 2.2rem;
-    }
-    
-    .media-grid {
-        grid-template-columns: 1fr;
-    }
+  .press-media h1 {
+    font-size: 2.2rem;
+  }
 
-    body::before { /* Adjust background shape for mobile */
-        width: 400px;
-        height: 400px;
-        left: -150px;
-    }
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
 
-    body::after { /* Adjust dots for mobile */
-        width: 100px;
-        height: 100px;
-        top: 20px;
-        right: 20px;
-    }
+  body::before {
+    /* Adjust background shape for mobile */
+    width: 400px;
+    height: 400px;
+    left: -150px;
+  }
+
+  body::after {
+    /* Adjust dots for mobile */
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+  }
 }

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="press.css" />
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="safetydetail.css" />
+    <link rel="stylesheet" href="termsandcondition.css" />
+    <link rel="stylesheet" href="corporateaffairs.css" />
+    <!-- <link rel="stylesheet" href="privicypolicy.css" /> -->
   
   </head>
   <body>

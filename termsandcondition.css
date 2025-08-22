@@ -1,0 +1,146 @@
+/* -------------------- */
+/* --- BASE STYLES --- */
+/* -------------------- */
+
+/* A simple reset and base font settings */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* -------------------- */
+/* -- MAIN CONTAINER -- */
+/* -------------------- */
+
+.terms-container {
+    width: 100%;
+    padding: 2rem 1.5rem; /* Padding for mobile view */
+}
+
+/* 
+  Container for each document type (Bikes, Auto/Cab)
+  Adds space between the two documents.
+*/
+.terms-document {
+    margin-bottom: 4rem;
+}
+
+/* -------------------- */
+/* ----- TYPOGRAPHY ----- */
+/* -------------------- */
+
+.terms-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.terms-main-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    color: #000;
+}
+
+.terms-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #444;
+}
+
+.terms-section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.intro-paragraph,
+.terms-section p {
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+strong {
+    font-weight: 700;
+    color: #000;
+}
+
+/* -------------------- */
+/* --- LIST STYLING --- */
+/* -------------------- */
+
+.terms-list {
+    padding-left: 1.5rem; /* Indentation for the list */
+    font-size: 0.95rem;
+}
+
+.terms-list li {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem; /* Space between number and text */
+    text-align: justify;
+}
+
+/* Style for Roman numeral lists if needed in the future */
+.terms-list[type="I"] {
+    list-style-type: upper-roman;
+}
+
+
+/* ---------------------------------- */
+/* --- DESKTOP & RESPONSIVE STYLES --- */
+/* ---------------------------------- */
+
+/* Medium screens and up (Tablets) */
+@media (min-width: 768px) {
+    .terms-container {
+        padding: 3rem 2.5rem;
+    }
+
+    .terms-main-title {
+        font-size: 1.75rem;
+    }
+
+    .terms-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Large screens and up (Desktops) */
+@media (min-width: 1024px) {
+    /* Create the dot pattern on the body background for large screens */
+    body {
+        background-color: #f7f7f7;
+        background-image: radial-gradient(#d1d1d1 1px, transparent 0);
+        background-size: 20px 20px;
+        background-position: calc(100% - 100px) 100px;
+        background-repeat: repeat-y;
+    }
+    
+    .terms-container {
+        max-width: 800px; /* Set a max width for the content */
+        margin: 4rem auto; /* Center the container on the page */
+        padding: 4rem;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+}
